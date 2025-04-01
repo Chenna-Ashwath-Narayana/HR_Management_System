@@ -1,0 +1,50 @@
+.employee-payroll-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    padding: 20px;
+    width: 80vw;
+    height: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payrolldetails-container {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .payroll-table {
+    /* margin-left: 100px; */
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .payroll-table th, .payroll-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .payroll-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .payroll-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  @media (max-width: 768px) {
+    .employee-payroll-container {
+      width: 90%;
+    }
+  }
+
+  

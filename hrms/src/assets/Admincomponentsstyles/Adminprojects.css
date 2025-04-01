@@ -1,0 +1,99 @@
+.admin-projects-container {
+  width: 90%;
+  margin: auto;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-project-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.edit-icon , .delete-icon{
+  cursor: pointer;
+}
+
+.adminmodal-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(233, 221, 221, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminmodal-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.adminmodal-content form{
+  /* text-align: center; */
+  /* background: white; */
+  padding: 20px;
+  border-radius: 8px;
+  width: 10vw;
+  height: 25vw;
+}
+
+.adminmodal-content h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.close{
+  width: 10vw;
+  cursor: pointer;
+}
+
+.adminmodal-content input{
+  width: 20vw;
+  height: 2vw;
+  /* margin-left: 15vw; */
+  margin-bottom: 1vw;
+}
+
+.adminmodal-content textarea{
+  width: 20vw;
+  height: 2vw;
+  /* margin-left: 15vw; */
+}
+
+.adminmodal-content-container button{
+  width: 10vw;
+  margin-left: 20vw;
+}
+
+.pagination-controls{
+  margin-top: 1vw;
+}

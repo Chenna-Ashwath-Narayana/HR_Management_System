@@ -1,0 +1,125 @@
+.employee-container {
+  width: 80%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* 1st Section - Header */
+.employee-header {
+  text-align: center;
+  background: #65a1dd;
+  color: white;
+  padding: 15px;
+  margin-top: 1vw;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* 2nd Section - Controls */
+.employee-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.employee-search {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.employee-add-button {
+  padding: 10px 15px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.employee-add-button:hover {
+  background: #219150;
+}
+
+/* 3rd Section - Employee List */
+.employee-list {
+  overflow-x: auto;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th, .employee-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.employee-table th {
+  background: #3498db;
+  color: white;
+}
+
+.employee-table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.employee-edit, .employee-delete {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.employee-edit {
+  background: #f39c12;
+  color: white;
+}
+
+.employee-delete {
+  background: #e74c3c;
+  color: white;
+}
+
+.employee-pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.employee-modal {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px gray;
+  width: 25vw;
+  height: 42vw;
+  border-radius: 20px;
+}
+.employee-modal-content{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.employee-modal-content input {
+  width: 20vw;
+  height: 2vw;
+  margin-left: 2vw;
+  margin-bottom: 1vw;
+  background-color: white;
+  color: black;
+  font-size: large;
+}
+
+.employee-modal-content button{
+  background-color: green;
+  margin: 0 auto;
+}
